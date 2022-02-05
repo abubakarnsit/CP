@@ -55,9 +55,7 @@ int main()
     cin>>n;
     vector<vector<int>>vec(n,vector<int>(2));
     for(int i=0;i<n;i++)
-    {
         cin>>vec[i][0]>>vec[i][0];
-    }
     Solution s;
     int ans=s.maxPoints(vec);
     cout<<ans<<endl;
